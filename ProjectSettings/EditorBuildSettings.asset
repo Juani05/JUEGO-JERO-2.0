@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: ab26878d262b99645a43ec94265119eb
+  - enabled: 1
+    path: Assets/Scenes/playagain.unity
+    guid: 7ae38b940ca11a24585f2baa1f922116
   m_configObjects: {}

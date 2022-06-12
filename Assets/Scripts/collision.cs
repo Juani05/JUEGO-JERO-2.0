@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class collision : MonoBehaviour
 {
-    public GameObject txt_perdiste;
     public AudioManager audioManager;
     // Start is called before the first frame update
     void Start()
@@ -24,8 +24,7 @@ public class collision : MonoBehaviour
         {
             audioManager.playclip();
             Destroy(gameObject);
-            txt_perdiste.SetActive(true);
-            Time.timeScale = 0;
+            SceneManager.LoadScene("playagain");
         }
 
     }
